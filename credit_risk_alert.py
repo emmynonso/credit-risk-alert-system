@@ -13,9 +13,9 @@ from datetime import datetime
 # --- Email Configuration ---
 import os
 
-SENDER_EMAIL = os.environ.get("emmanuelchinonso1340@gmail.com")
-SENDER_PASSWORD = os.environ.get("dmbzsbmvespfcmep")
-RECEIVER_EMAIL = os.environ.get("nonsoemmy4469@gmail.com")
+SENDER_EMAIL = os.environ.get("SENDER_EMAIL")
+SENDER_PASSWORD = os.environ.get("SENDER_PASSWORD")
+RECEIVER_EMAIL = os.environ.get("RECEIVER_EMAIL")
 
 # --- Database Connection ---
 conn = sqlite3.connect('credit_risk.db')
